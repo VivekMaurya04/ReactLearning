@@ -32,3 +32,7 @@ The react.development.js file is intended for use during development, while the 
 The main difference between these two files is the level of optimization that has been applied to them. The react.development.js file is not minified and includes additional debugging information, such as error messages and warnings, which can be helpful during development. The react.production.js file, on the other hand, is minified and does not include any debugging information, which makes it smaller and faster to load in production environments.
 
 ● What is async and defer?
+in async tag the html is goes on and when the script tag is found it won't stop, and when script rendering is complited htm is stop and 
+script is continued and after completion of that the html continued.
+
+And in defer tag the html continue either the script tag is found or not and when found both has continued parralelly.
