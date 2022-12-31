@@ -1,0 +1,34 @@
+● What is Emmet?
+Emmet is a Extension or plugin for Vs-code which helps you write HTML and CSS faster by using simple abbreviations that are then converted into code blocks by using this developer can code in a fastest way to save time and extra effort.
+Emmet is available as a plugin for many popular text editors, including Sublime Text, Visual Studio Code, and Atom. It can also be used in web development tools such as Adobe Dreamweaver and JetBrains WebStorm.
+
+● Difference between a Library and Framework?
+A Framework is a full fledge flateform for developing software applications. It provides a foundation on which software developers can build programs for a specific platform.
+And A Library is just take minimum effort to put in our code, programmer calls the library whenever it needed.
+
+● What is CDN? Why do we use it?
+Content Delivery Network (CDN) is a distributed network of servers that are used to deliver content to users based on their geographic location. CDNs are used to improve the performance and availability of websites and applications by reducing the distance between the user and the server that is delivering the content.
+
+● Why is React known as React?
+React is a JavaScript library for building user interfaces that was developed and is maintained by Facebook. It is known as React because it was designed to be reactive, meaning that it was designed to update the user interface in response to changes in the underlying data.
+React uses a virtual DOM (Document Object Model) to optimize the rendering of components, so that the user interface is updated efficiently when the underlying data changes. When a component's state changes, React compares the virtual DOM with the real DOM and only updates the parts of the user interface that have actually changed, rather than re-rendering the entire user interface. This makes React very efficient for building large, complex user interfaces that need to update frequently in response to changing data.
+The name "React" is a short form of "responsive," which refers to the reactive nature of the library and its ability to efficiently update the user interface in response to changes in the underlying data.
+
+● What is crossorigin in script tag?
+ The purpose of crossorigin attributes is used to share the resources from one domain to another domain. Basically, it is used to handle the CORS request. It is used to handle the CORS request that checks whether it is safe to allow for sharing the resources from other domains. The resources may include Audio, Video, Images, Link or external script that specifies whether to support a cross-origin request or not.
+CORS: It stands for cross-origin resource sharing. It is a mechanism by which one webpage requests to another domain for fetching out the resource like audio, video, script, etc. from the third party server without leaking their credentials information. 
+Values: This attribute contains two values which are given below –
+anonymous: It has a default value. It defines a CORS request which will be sent without passing the credential information.
+use-credentials: A cross-origin request will be sent with credentials, cookies, and certificate.
+
+● What is diference between React and ReactDOM?
+React is a JavaScript library for building user interfaces, while ReactDOM is a JavaScript library that provides DOM (Document Object Model) specific methods for rendering React components.
+React is designed to be used for building reusable UI components that can be easily shared and reused across different applications. It provides a declarative approach to building user interfaces, which means that you can describe the UI you want to see, and React will automatically update the UI to reflect your desired state.
+ReactDOM is a separate library that provides specific methods for rendering React components to the DOM. It provides a simple way to take a React component and render it to a DOM element in the browser.
+
+● What is difference between react.development.js and react.production.js files via CDN?
+The react.development.js and react.production.js files are different versions of the React JavaScript library that are optimized for different environments.
+The react.development.js file is intended for use during development, while the react.production.js file is intended for use in production environments.
+The main difference between these two files is the level of optimization that has been applied to them. The react.development.js file is not minified and includes additional debugging information, such as error messages and warnings, which can be helpful during development. The react.production.js file, on the other hand, is minified and does not include any debugging information, which makes it smaller and faster to load in production environments.
+
+● What is async and defer?
